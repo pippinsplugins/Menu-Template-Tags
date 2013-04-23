@@ -26,6 +26,9 @@ class Menu_Template_Tags {
 	
 		$user = get_userdata( get_current_user_id() );
 
+		if( ! $user )
+			return $nav;
+
 		$tags = $this->get_tags();
 
 		foreach( $tags as $tag_id => $tag ) {
