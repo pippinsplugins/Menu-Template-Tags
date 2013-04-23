@@ -10,4 +10,4 @@ Usage
 
 1. Create a nav menu item
 2. Place a template tag in any of the nav menu options (URL, label, title, classes, etc).
-3. Template tags are wrapped in parantheses, like this: `(user_login)`
+3. Template tags are wrapped in parentheses, like this: `(user_login)`
