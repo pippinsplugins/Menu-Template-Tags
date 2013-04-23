@@ -21,6 +21,7 @@ class Menu_Template_Tags {
 
 	}
 
+
 	public function filter_tags( $nav, $args ) {
 	
 		$user = get_userdata( get_current_user_id() );
